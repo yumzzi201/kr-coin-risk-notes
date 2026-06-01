@@ -1,0 +1,9 @@
+{
+  "name": "Example Coin",
+  "description": "매월 고정 수익을 보장하며, 대형 거래소 상장이 확정되었다고 홍보합니다. 오늘만 참여 가능하다고 합니다.",
+  "anonymous_team": true,
+  "has_public_code": false,
+  "has_whitepaper": false,
+  "has_tokenomics": false,
+  "has_lockup_info": false
+}

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coin-risk-notes-kr"
+version = "0.1.0"
+description = "Korean educational crypto project risk checklist CLI"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "yumzzi201"}]
+keywords = ["crypto", "korean", "risk", "checklist", "education"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+coin-risk-notes-kr = "coin_risk_notes_kr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
